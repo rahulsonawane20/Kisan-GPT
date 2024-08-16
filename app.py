@@ -44,7 +44,7 @@ st.markdown(
 )
 
 # Set the background image (adjust the path to your image)
-set_background("Background_Image.jpg")
+set_background("Cover.jpg")
 
 def encode_image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
